@@ -4,8 +4,9 @@ Release:	0%{?dist}
 Summary:	Tracing packets in the Linux networking stack, using eBPF and interfacing with control and data paths such as OvS or Netfilter.
 License:	GPLv2
 
-URL:		https://github.com/retis-org/retis
-Source:		https://github.com/retis-org/retis/archive/v%{version}/%{name}-%{version}.tar.gz
+URL:		https://github.com/vlrpl/retis
+#URL:		https://github.com/retis-org/retis
+Source:		https://github.com/vlrpl/retis/archive/v%{version}/%{name}-%{version}.tar.gz
 Patch0:		retis-fixes.diff
 Patch1:		retis-rawhide-bpf.diff
 
